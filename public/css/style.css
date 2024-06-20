@@ -1,0 +1,197 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  overflow-x: hidden;
+  margin: 0rem !important;
+  flex: 1;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 6.74rem;
+}
+
+/* Navbar */
+
+.navbar-a {
+  height: 4rem;
+  margin-bottom: 1rem;
+  position: sticky;
+  top: 0px;
+  z-index: 12;
+  background-color: white !important;
+}
+
+.navbar-collapse {
+  background-color: white !important;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+/* footer */
+
+.f-info-socials,
+.f-info-links,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.f-info-links a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: #ebebeb;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+/* Cards */
+
+.cards-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.listing-card {
+  width: 14rem;
+  border: none;
+  font-size: 0.8rem !important;
+  margin: 1rem;
+}
+
+@media (max-width: 530px) {
+  .cards-container {
+    width: 98%;
+  }
+
+  .listing-card {
+    width: 9.5rem;
+    margin: 0.5rem;
+  }
+}
+
+.card-img-top {
+  width: 100% !important;
+  border-radius: 1rem !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-body p {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Hover Effect */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.2;
+  background-color: white;
+}
+
+.add-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Show page */
+
+.show-card {
+  border: none !important;
+}
+
+.show-img {
+  height: 50vh;
+}
+
+.l-detail {
+  line-height: 1.5rem;
+}
+
+.btns {
+  display: flex;
+}
+
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  width: 6rem !important;
+}
+
+/* Map */
+
+#map {
+  height: 18rem;
+  border-radius: 10px;
+}
+
+/* Login/SignUp */
+
+.ls-page {
+  overflow: hidden;
+}
+
+/* flash */
+
+@media (max-width: 630px) {
+  .flash {
+    font-size: 4rem !important;
+  }
+}
+
+/* Review */
+
+.review {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.review-i {
+  width: 14rem;
+  padding: 0.5rem;
+}
