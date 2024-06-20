@@ -17,8 +17,6 @@ JavaScript
 Getting Started
 Clone the repository:
 
-git clone https://github.com/HarryOhm33/Wonderlust
-
 Install dependencies:
 
 npm install
