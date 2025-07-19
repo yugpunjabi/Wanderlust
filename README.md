@@ -1,7 +1,5 @@
-Certainly! Below is the README.md file tailored for your WonderLust project:
-
 Welcome to WonderLust!
-WonderLust is a small clone of Airbnb, developed as a Node.js major project for the Delta batch at Apna College. This project showcases my dedication to web development and highlights my proficiency in creating robust and scalable web applications.
+WonderLust is a small clone of Airbnb, developed as a Node.js project. This project showcases my dedication to web development and highlights my proficiency in creating robust and scalable web applications.
 
 Features
 User Authentication and Authorization: Users can sign up, log in, and access personalized features securely.
